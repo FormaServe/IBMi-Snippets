@@ -20,7 +20,7 @@ Requires VS Code 1.60 or later.
 * Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
 * `ext install ibmi-snippets`
 * Alternatively, you can download the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=pack.ibmi-snippets).
-* Or command line `code --install-extension pack.ibmi-snippets`
+* Or on a command line `code --install-extension pack.ibmi-snippets`
 
 ## 🔗 Download
 
