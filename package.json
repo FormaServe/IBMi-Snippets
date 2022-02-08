@@ -1,0 +1,26 @@
+{
+    "name": "ibmi-snippets",
+    "displayName": "IBM i Snippets",
+    "description": "IBM i Tradional Language Code Snippets",
+    "version": "1.0.0",
+    "publisher": "FormaServe Systems Ltd",
+    "icon": "logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/FormaServe/IBMi-Snippets.git"
+    },
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
