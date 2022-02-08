@@ -85,6 +85,7 @@ TODO add video
 * Twitter: https://twitter.com/FormaServe
 * Website: https://learning.formaserve.co.uk
 * Website: https://www.formaserve.co.uk
+* LinkedIn: https://www.linkedin.com/company/formaserve-systems
 
 ## ☕ Support FormaServe
 
