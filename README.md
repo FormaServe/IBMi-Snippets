@@ -1,65 +1,110 @@
-# ibmi-snippets README
+# FormaServe IBM i Snippets
 
-This is the README for your extension "ibmi-snippets". After writing up a brief description, we recommend including the following sections.
+The IBM i snippets extension is a collection of IBM i snippets.
+It provides a way to share traditional programming language snippets with other IBM i users.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+It currently supports the following IBM i languages:
+* CL
+* CLLE
+* RPGLE
+* SQLRPGLE
+* DSPFs
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Requires VS Code 1.60 or later.
+
+## Installing
+* Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
+* `ext install ibmi-snippets`
+* Alternatively, you can download the extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=pack.ibmi-snippets).
+* Or command line `code --install-extension pack.ibmi-snippets`
+
+## 🔗 Download
+
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com/)
+
+<!-- ## 🏁 Getting started -->
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+There are no settings for this extension.
 
-For example:
+## Usage
 
-This extension contributes the following settings:
+In Visual Studio Code, create a new file.
+The file extension should be one of the supported IBM i languages.
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+They can be:
+* .CL
+* .CLLE
+* .RPGLE
+* .SQLRPGLE
+* .DSPF
 
-## Known Issues
+On the first line of your new file type;
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+| **Command** | **Description**         |
+|-------------|-------------------------|
+| !icl        | CL program snippet      |
+| !iclle      | CL LE program snippet   |
+| !idspf      | Display file snippet    |
+| !irpgle     | RPG LE snippet          |
+| !isqlrpgle  | RPGLE with embedded SQL |
+
+## Issues
+
+If you find any issues, or have any suggestions, please open an issue on our [GitHub repository](https://github.com/FormaServe/IBMi-Snippets/issues)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Please see the [CHANGELOG.md](CHANGELOG.md) file for a list of changes.
 
-### 1.0.0
+## About FormaServe
 
-Initial release of ...
+FormaServe Systems have been developing IBM i solutions since 1990.
+[Check our website](https://www.formaserve.co.uk).
 
-### 1.0.1
+<!--
+TODO add video
+## Demo Video
 
-Fixed issue #.
+[![Demo video](https://download.proficientdesigners.in/sublime-demo-video-screenshot.png)](https://youtu.be/A0WOxUwaDPI) -->
 
-### 1.1.0
+<!-- --- -->
 
-Added features X, Y, and Z.
+## 🔗 Links
+* [Issues](https://github.com/formaserve/ibmi-snippets/issues)
+* [Readme](https://github.com/formaserve/ibmi-snippets/blob/master/README.md)
 
------------------------------------------------------------------------------------------------------------
+## 📬 Contact
 
-## Working with Markdown
+* Email: [FormaServe](fss@formaserve.co.uk)
+* Twitter: https://twitter.com/FormaServe
+* Website: https://learning.formaserve.co.uk
+* Website: https://www.formaserve.co.uk
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+## ☕ Support FormaServe
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+* [Buy us a coffee](https://ko-fi.com/andyyouens)
 
-### For more information
+## 🏠 Location
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+We are located in London England.
 
-**Enjoy!**
+## ⚙️ Powered by
+
+* [VS Code](https://code.visualstudio.com)
+* [GitHub](https://github.com)
+* [Visual Studio Marketplace](https://marketplace.visualstudio.com)
+
+## ⚙️ License
+
+* The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+* Copyright (&copy;) 2022 FormaServe Systems Ltd.
+
+## Open Source on IBM i - Oh Yea!
+
+👍👍
