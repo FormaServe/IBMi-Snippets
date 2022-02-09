@@ -67,13 +67,8 @@ Please see the [CHANGELOG.md](CHANGELOG.md) file for a list of changes.
 FormaServe Systems have been developing IBM i solutions since 1990.
 [Check our website](https://www.formaserve.co.uk).
 
-<!--
-TODO add video
 ## Demo Video
-
-[![Demo video](https://download.proficientdesigners.in/sublime-demo-video-screenshot.png)](https://youtu.be/A0WOxUwaDPI) -->
-
-<!-- --- -->
+![IBMi Snippets Demo](VSCode IBMi Snippets.gif)
 
 ## 🔗 Links
 * [Issues](https://github.com/formaserve/ibmi-snippets/issues)
