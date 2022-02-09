@@ -1,7 +1,9 @@
-# FormaServe IBM i Snippets
+# IBM i Snippets
 
-The IBM i snippets extension is a collection of IBM i snippets.
-It provides a way to share traditional programming language snippets with other IBM i users.
+A [Visual Studio Code extension](https://code.visualstudio.com/) that provides traditional IBM i programming language snippets.
+<br>
+<br>
+Its purpose is to provide a way to share these snippets with other IBM i users.
 
 ## Demo Video
 [IBMi Snippets Demo](vscode_ibmi_snippets.gif)
@@ -37,6 +39,8 @@ There are no settings for this extension.
 ## Usage
 
 In Visual Studio Code, create a new file.
+<br>
+<br>
 The file extension should be one of the supported IBM i languages.
 
 They can be:
@@ -58,7 +62,7 @@ On the first line of your new file type and of the following;
 
 ## Issues & Suggestions
 
-If you find any issues, or have any suggestions, please open an issue on our [GitHub repository](https://github.com/FormaServe/IBMi-Snippets/issues)
+If you find any issues, or have any suggestions, please open an issue on our [GitHub repository issues page](https://github.com/FormaServe/IBMi-Snippets/issues)
 
 ## Release Notes
 
@@ -80,6 +84,9 @@ FormaServe Systems have been developing IBM i solutions since 1990.
 * Website: https://learning.formaserve.co.uk
 * Website: https://www.formaserve.co.uk
 * LinkedIn: https://www.linkedin.com/company/formaserve-systems
+
+## Contributing
+Please read [our contributing document](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## ☕ Support FormaServe
 
