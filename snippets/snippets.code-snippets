@@ -78,10 +78,10 @@
       "            Dcl        &MsgfLib       *Char            10",
       "            Dcl        &ErrorSw       *Lgl ",
       "$0",
-      "            MonMsg     Cpf0000 Exec(Goto Error)",
-      "$0",
       "            Copyright  '© your company.'",
       "$0",
+      "            MonMsg     Cpf0000 Exec(Goto Error)",
+
       "            ChgVar     &Msg ('Starting job ...')",
       "            SndPgmMsg  MsgID(Cpf9898) MsgF(QCpfMsg) +",
       "                         MsgDta(&Msg) MsgType(*Status) ToPgmQ(*Ext)",
