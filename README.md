@@ -44,7 +44,7 @@ They can be:
 * .SQLRPGLE
 * .DSPF
 
-On the first line of your new file type;
+On the first line of your new file type and of the following;
 
 | **Command** | **Description**         |
 |-------------|-------------------------|
@@ -54,7 +54,7 @@ On the first line of your new file type;
 | !irpgle     | RPG LE snippet          |
 | !isqlrpgle  | RPGLE with embedded SQL |
 
-## Issues
+## Issues & Suggestions
 
 If you find any issues, or have any suggestions, please open an issue on our [GitHub repository](https://github.com/FormaServe/IBMi-Snippets/issues)
 
