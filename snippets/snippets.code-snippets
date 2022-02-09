@@ -11,8 +11,11 @@
       " *                                                             +",
       " *  Change Log:                                                +",
       " *                                                             +",
-      "/**************************************************************+",
+      " **************************************************************/",
       " Start:     Pgm",
+      "$0",
+      "$0",
+      "            Dcl        &Msg           *Char           256",
       "$0",
       "            Dcl        &MsgId         *Char             7",
       "            Dcl        &MsgDta        *Char           256",
@@ -23,6 +26,8 @@
       "            MonMsg     Cpf0000 Exec(Goto Error)",
       "$0",
       "            ChgVar     &Msg ('Starting job ...')",
+      "            SndPgmMsg  MsgID(Cpf9898) MsgF(QCpfMsg) +",
+      "                         MsgDta(&Msg) MsgType(*Status) ToPgmQ(*Ext)",
       "$0",
       "$0",
       "$0",
@@ -45,11 +50,11 @@
       "                         SndMsgFLib(&MsgFLib)",
       "            SndPgmMsg  MsgID(&MsgID) MsgF(&MsgFLib/&MsgF) MsgDta(&MsgDta) MsgType(*Escape)",
       "$0",
-      "            Return"
+      "            EndPgm"
     ],
     "description": "Creates IBM i CL Programming Template"
   },
-  "IBM i CL ILE Programming Template": {
+  "IBM i CL LE Programming Template": {
     "prefix": "!iclle",
     "body": [
       "/**************************************************************+",
@@ -61,8 +66,11 @@
       " *                                                             +",
       " *  Change Log:                                                +",
       " *                                                             +",
-      "/**************************************************************+",
-      "            Pgm",
+      " **************************************************************/",
+      " Start:     Pgm",
+      "$0",
+      "$0",
+      "            Dcl        &Msg           *Char           256",
       "$0",
       "            Dcl        &MsgId         *Char             7",
       "            Dcl        &MsgDta        *Char           256",
@@ -70,11 +78,13 @@
       "            Dcl        &MsgfLib       *Char            10",
       "            Dcl        &ErrorSw       *Lgl ",
       "$0",
-      "            Copyright  '© your company.'",
-      "$0",
       "            MonMsg     Cpf0000 Exec(Goto Error)",
       "$0",
+      "            Copyright  '© your company.'",
+      "$0",
       "            ChgVar     &Msg ('Starting job ...')",
+      "            SndPgmMsg  MsgID(Cpf9898) MsgF(QCpfMsg) +",
+      "                         MsgDta(&Msg) MsgType(*Status) ToPgmQ(*Ext)",
       "$0",
       "$0",
       "$0",
@@ -97,7 +107,7 @@
       "                         SndMsgFLib(&MsgFLib)",
       "            SndPgmMsg  MsgID(&MsgID) MsgF(&MsgFLib/&MsgF) MsgDta(&MsgDta) MsgType(*Escape)",
       "$0",
-      "            Return"
+      "            EndPgm"
     ],
     "description": "Creates IBM i CL ILE Programming Template"
   },
