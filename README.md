@@ -6,7 +6,8 @@ A [Visual Studio Code extension](https://code.visualstudio.com/) that provides t
 Its purpose is to provide a way to share these snippets with other IBM i users.
 
 ## Demo Video
-[IBMi Snippets Demo](vscode_ibmi_snippets.gif)
+![IBMi Snippets Demo](vscode_ibmi_snippets.gif)
+
 ## Features
 
 It currently supports the following IBM i languages:
