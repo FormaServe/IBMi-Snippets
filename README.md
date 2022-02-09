@@ -3,6 +3,8 @@
 The IBM i snippets extension is a collection of IBM i snippets.
 It provides a way to share traditional programming language snippets with other IBM i users.
 
+## Demo Video
+[IBMi Snippets Demo](vscode_ibmi_snippets.gif)
 ## Features
 
 It currently supports the following IBM i languages:
@@ -66,9 +68,6 @@ Please see the [CHANGELOG.md](CHANGELOG.md) file for a list of changes.
 
 FormaServe Systems have been developing IBM i solutions since 1990.
 [Check our website](https://www.formaserve.co.uk).
-
-## Demo Video
-![IBMi Snippets Demo](VSCode IBMi Snippets.gif)
 
 ## 🔗 Links
 * [Issues](https://github.com/formaserve/ibmi-snippets/issues)
