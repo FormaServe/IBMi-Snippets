@@ -13,6 +13,12 @@
         "url": "https://github.com/FormaServe/IBMi-Snippets/issues"
     },
     "homepage": "https://github.com/FormaServe/IBMi-Snippets/blob/master/README.md",
+    "keywords": [
+		"ibmi",
+		"iseries",
+		"as400",
+		"i5"
+	],
     "galleryBanner": {
         "label": "IBM i Snippets",
         "filename": "logo.png",
