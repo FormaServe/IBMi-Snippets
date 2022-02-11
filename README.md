@@ -72,7 +72,12 @@ Please see the [CHANGELOG.md](CHANGELOG.md) file for a list of changes.
 ## About FormaServe
 
 FormaServe Systems have been developing IBM i solutions since 1990.
+<br>
+<br>
 [Check our website](https://www.formaserve.co.uk).
+<br>
+<br>
+We have no affiliation with IBM.
 
 ## 🔗 Links
 * [Issues](https://github.com/formaserve/ibmi-snippets/issues)
