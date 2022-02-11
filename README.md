@@ -69,27 +69,27 @@ If you find any issues, or have any suggestions, please open an issue on our [Gi
 
 Please see the [CHANGELOG.md](CHANGELOG.md) file for a list of changes.
 
-## About FormaServe
+## 🏢 About FormaServe
 
 FormaServe Systems have been developing IBM i solutions since 1990.
 <br>
 <br>
-[Check our website](https://www.formaserve.co.uk).
-<br>
-<br>
 We have no affiliation with IBM.
-
-## 🔗 Links
-* [Issues](https://github.com/formaserve/ibmi-snippets/issues)
-* [Readme](https://github.com/formaserve/ibmi-snippets/blob/master/README.md)
+<br>
+<br>
+[🔗 Check our website](https://www.formaserve.co.uk).
 
 ## 📬 Contact
-
 * Email: [FormaServe](fss@formaserve.co.uk)
 * Twitter: https://twitter.com/FormaServe
 * Website: https://learning.formaserve.co.uk
 * Website: https://www.formaserve.co.uk
 * LinkedIn: https://www.linkedin.com/company/formaserve-systems
+
+## 🔗 Links
+* [Issues](https://github.com/formaserve/ibmi-snippets/issues)
+* [Readme](https://github.com/formaserve/ibmi-snippets/blob/master/README.md)
+
 
 ## Contributing
 Please read [our contributing document](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
