@@ -77,9 +77,6 @@ FormaServe Systems have been developing IBM i solutions since 1990.
 <br>
 <br>
 We have no affiliation with IBM.
-<br>
-<br>
-[🔗 Check our website](https://www.formaserve.co.uk).
 
 ## 📬 Contact
 
