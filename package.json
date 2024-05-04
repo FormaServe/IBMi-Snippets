@@ -2,7 +2,7 @@
     "name": "ibmi-snippets",
     "displayName": "IBM i Snippets",
     "description": "IBM i Traditional Language Code Snippets",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "formaserve-systems",
     "icon": "logo.png",
     "repository": {
@@ -14,11 +14,11 @@
     },
     "homepage": "https://github.com/FormaServe/IBMi-Snippets/blob/master/README.md",
     "keywords": [
-		"ibmi",
-		"iseries",
-		"as400",
-		"i5"
-	],
+        "ibmi",
+        "iseries",
+        "as400",
+        "i5"
+    ],
     "galleryBanner": {
         "label": "IBM i Snippets",
         "filename": "logo.png",
